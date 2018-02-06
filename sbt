@@ -3,13 +3,13 @@
 CURR_DIR=`dirname $0`
 if [ `uname -s` = Linux ] ; then
   if [ -z "$JENKINS_URL" ] ; then
-    export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+    export JAVA_HOME=/usr/lib/jvm/java-9-oracle
   else
     export JAVA_HOME=/usr
   fi
 else
   if [ `uname -s` = Darwin ] ; then
-    export JAVA_HOME=`/usr/libexec/java_home -F -v1.8*`
+    export JAVA_HOME=`/usr/libexec/java_home -F -v1.9*`
   else
     export JAVA_HOME=/usr
   fi
