@@ -1,0 +1,11 @@
+{
+    "name": "shubham",
+    "prims": [
+      {
+        "name":       "input",
+        "actionName": "take-user-input",
+        "argTypes":   ["string"],
+        "returnType": "text"
+      }
+    ]
+  }
